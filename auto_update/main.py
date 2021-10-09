@@ -143,7 +143,7 @@ if __name__ == '__main__':
     # Your database should look like this: https://safelyy.notion.site/f1f5071d8d2a47aa9ddc02b8aad3f6bc
     # You can duplicate it, create one manually or try to create one with the API. See create_database.py for an example!
 
-    database_id = 'TODO'
+    database_id = '3c9ae80a-cc42-4099-9e2a-b59e9c8323ce'
 
     # The initial mapping of page_id to category, we don't update the cover here
     map_page_to_category(database_id)
