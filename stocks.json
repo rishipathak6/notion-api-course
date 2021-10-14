@@ -1,0 +1,2207 @@
+{
+    "object": "list",
+    "results": [
+        {
+            "object": "page",
+            "id": "d4b3f56f-bd1a-4364-bc5b-60b51815334f",
+            "created_time": "2021-09-19T06:18:00.000Z",
+            "last_edited_time": "2021-10-09T13:27:00.000Z",
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "b3c92746-440d-46ec-b153-0e6a3834f395"
+            },
+            "archived": false,
+            "properties": {
+                "Buy/Sell": {
+                    "id": "Ay%5E%5B",
+                    "type": "select",
+                    "select": {
+                        "id": "bc0bf4f4-ad8c-4f72-b80e-42e3fc56028d",
+                        "name": "Buy",
+                        "color": "green"
+                    }
+                },
+                "Number of Stocks": {
+                    "id": "BI%5Cf",
+                    "type": "number",
+                    "number": 1
+                },
+                "Current Value": {
+                    "id": "Qe%3ED",
+                    "type": "number",
+                    "number": null
+                },
+                "Industry": {
+                    "id": "Sgjl",
+                    "type": "select",
+                    "select": {
+                        "id": "Mh[r",
+                        "name": "Consumer Staples",
+                        "color": "default"
+                    }
+                },
+                "Amount": {
+                    "id": "%5B%3BFs",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "number",
+                        "number": 641.8,
+                        "function": "sum"
+                    }
+                },
+                "Transaction": {
+                    "id": "l%5C_S",
+                    "type": "relation",
+                    "relation": [
+                        {
+                            "id": "3d04f2ad-e1a5-485a-888f-918aef6e6e20"
+                        }
+                    ]
+                },
+                "Price of 1 Stock": {
+                    "id": "%7BV%5Cc",
+                    "type": "formula",
+                    "formula": {
+                        "type": "number",
+                        "number": 641.8
+                    }
+                },
+                "Date": {
+                    "id": "~%5Ed%3F",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "date",
+                                "date": {
+                                    "start": "2021-09-13",
+                                    "end": null
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "DABUR",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "DABUR",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/DABUR-d4b3f56fbd1a4364bc5b60b51815334f"
+        },
+        {
+            "object": "page",
+            "id": "9d93645a-6038-4ced-b954-21e18d4e2adf",
+            "created_time": "2021-09-19T06:15:00.000Z",
+            "last_edited_time": "2021-09-19T06:15:00.000Z",
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "b3c92746-440d-46ec-b153-0e6a3834f395"
+            },
+            "archived": false,
+            "properties": {
+                "Buy/Sell": {
+                    "id": "Ay%5E%5B",
+                    "type": "select",
+                    "select": {
+                        "id": "bc0bf4f4-ad8c-4f72-b80e-42e3fc56028d",
+                        "name": "Buy",
+                        "color": "green"
+                    }
+                },
+                "Number of Stocks": {
+                    "id": "BI%5Cf",
+                    "type": "number",
+                    "number": 1
+                },
+                "Current Value": {
+                    "id": "Qe%3ED",
+                    "type": "number",
+                    "number": null
+                },
+                "Industry": {
+                    "id": "Sgjl",
+                    "type": "select",
+                    "select": {
+                        "id": "b71e7a00-453c-4da4-8848-a96dfda38854",
+                        "name": "Information Technology",
+                        "color": "blue"
+                    }
+                },
+                "Amount": {
+                    "id": "%5B%3BFs",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "number",
+                        "number": 1434.95,
+                        "function": "sum"
+                    }
+                },
+                "Transaction": {
+                    "id": "l%5C_S",
+                    "type": "relation",
+                    "relation": [
+                        {
+                            "id": "9e872b37-8d50-4e99-bc09-3f32d49c626b"
+                        }
+                    ]
+                },
+                "Price of 1 Stock": {
+                    "id": "%7BV%5Cc",
+                    "type": "formula",
+                    "formula": {
+                        "type": "number",
+                        "number": 1434.95
+                    }
+                },
+                "Date": {
+                    "id": "~%5Ed%3F",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "date",
+                                "date": {
+                                    "start": "2021-09-13",
+                                    "end": null
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "TECHM",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "TECHM",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/TECHM-9d93645a60384cedb95421e18d4e2adf"
+        },
+        {
+            "object": "page",
+            "id": "9400091b-6d19-4165-bf68-498e385b569d",
+            "created_time": "2021-09-19T06:12:00.000Z",
+            "last_edited_time": "2021-09-19T06:14:00.000Z",
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "b3c92746-440d-46ec-b153-0e6a3834f395"
+            },
+            "archived": false,
+            "properties": {
+                "Buy/Sell": {
+                    "id": "Ay%5E%5B",
+                    "type": "select",
+                    "select": {
+                        "id": "bc0bf4f4-ad8c-4f72-b80e-42e3fc56028d",
+                        "name": "Buy",
+                        "color": "green"
+                    }
+                },
+                "Number of Stocks": {
+                    "id": "BI%5Cf",
+                    "type": "number",
+                    "number": 1
+                },
+                "Current Value": {
+                    "id": "Qe%3ED",
+                    "type": "number",
+                    "number": null
+                },
+                "Industry": {
+                    "id": "Sgjl",
+                    "type": "select",
+                    "select": {
+                        "id": "4f0ba83b-cd38-4c07-861a-51ed03231292",
+                        "name": "Consumer Discretionary",
+                        "color": "yellow"
+                    }
+                },
+                "Amount": {
+                    "id": "%5B%3BFs",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "number",
+                        "number": 2029.5,
+                        "function": "sum"
+                    }
+                },
+                "Transaction": {
+                    "id": "l%5C_S",
+                    "type": "relation",
+                    "relation": [
+                        {
+                            "id": "b32cc640-8f78-4694-8d1d-bd37a4967315"
+                        }
+                    ]
+                },
+                "Price of 1 Stock": {
+                    "id": "%7BV%5Cc",
+                    "type": "formula",
+                    "formula": {
+                        "type": "number",
+                        "number": 2029.5
+                    }
+                },
+                "Date": {
+                    "id": "~%5Ed%3F",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "date",
+                                "date": {
+                                    "start": "2021-09-13",
+                                    "end": null
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "TITAN",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "TITAN",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/TITAN-9400091b6d194165bf68498e385b569d"
+        },
+        {
+            "object": "page",
+            "id": "f0a6a315-ffdd-4a1e-8ab3-da0062c123a5",
+            "created_time": "2021-09-19T06:03:00.000Z",
+            "last_edited_time": "2021-09-19T06:12:00.000Z",
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "b3c92746-440d-46ec-b153-0e6a3834f395"
+            },
+            "archived": false,
+            "properties": {
+                "Buy/Sell": {
+                    "id": "Ay%5E%5B",
+                    "type": "select",
+                    "select": {
+                        "id": "bc0bf4f4-ad8c-4f72-b80e-42e3fc56028d",
+                        "name": "Buy",
+                        "color": "green"
+                    }
+                },
+                "Number of Stocks": {
+                    "id": "BI%5Cf",
+                    "type": "number",
+                    "number": 1
+                },
+                "Current Value": {
+                    "id": "Qe%3ED",
+                    "type": "number",
+                    "number": null
+                },
+                "Industry": {
+                    "id": "Sgjl",
+                    "type": "select",
+                    "select": {
+                        "id": "b71e7a00-453c-4da4-8848-a96dfda38854",
+                        "name": "Information Technology",
+                        "color": "blue"
+                    }
+                },
+                "Amount": {
+                    "id": "%5B%3BFs",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "number",
+                        "number": 667.95,
+                        "function": "sum"
+                    }
+                },
+                "Transaction": {
+                    "id": "l%5C_S",
+                    "type": "relation",
+                    "relation": [
+                        {
+                            "id": "6406d4a2-80f7-43d8-a63b-750c34686ef7"
+                        }
+                    ]
+                },
+                "Price of 1 Stock": {
+                    "id": "%7BV%5Cc",
+                    "type": "formula",
+                    "formula": {
+                        "type": "number",
+                        "number": 667.95
+                    }
+                },
+                "Date": {
+                    "id": "~%5Ed%3F",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "date",
+                                "date": {
+                                    "start": "2021-09-13",
+                                    "end": null
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "WIPRO",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "WIPRO",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/WIPRO-f0a6a315ffdd4a1e8ab3da0062c123a5"
+        },
+        {
+            "object": "page",
+            "id": "a12fb72d-cd39-4419-a7a0-82252b7beea0",
+            "created_time": "2021-08-15T18:31:00.000Z",
+            "last_edited_time": "2021-09-19T06:11:00.000Z",
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "b3c92746-440d-46ec-b153-0e6a3834f395"
+            },
+            "archived": false,
+            "properties": {
+                "Buy/Sell": {
+                    "id": "Ay%5E%5B",
+                    "type": "select",
+                    "select": {
+                        "id": "bc0bf4f4-ad8c-4f72-b80e-42e3fc56028d",
+                        "name": "Buy",
+                        "color": "green"
+                    }
+                },
+                "Number of Stocks": {
+                    "id": "BI%5Cf",
+                    "type": "number",
+                    "number": 1
+                },
+                "Current Value": {
+                    "id": "Qe%3ED",
+                    "type": "number",
+                    "number": null
+                },
+                "Industry": {
+                    "id": "Sgjl",
+                    "type": "select",
+                    "select": {
+                        "id": "4f0ba83b-cd38-4c07-861a-51ed03231292",
+                        "name": "Consumer Discretionary",
+                        "color": "yellow"
+                    }
+                },
+                "Amount": {
+                    "id": "%5B%3BFs",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "number",
+                        "number": 1161,
+                        "function": "sum"
+                    }
+                },
+                "Transaction": {
+                    "id": "l%5C_S",
+                    "type": "relation",
+                    "relation": [
+                        {
+                            "id": "1310c0d1-8368-49c1-b148-86ed2719caf9"
+                        }
+                    ]
+                },
+                "Price of 1 Stock": {
+                    "id": "%7BV%5Cc",
+                    "type": "formula",
+                    "formula": {
+                        "type": "number",
+                        "number": 1161
+                    }
+                },
+                "Date": {
+                    "id": "~%5Ed%3F",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "date",
+                                "date": {
+                                    "start": "2021-08-12",
+                                    "end": null
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "RELAXO",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "RELAXO",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/RELAXO-a12fb72dcd394419a7a082252b7beea0"
+        },
+        {
+            "object": "page",
+            "id": "bdb242a5-6755-4ec4-8dd1-977923292f4f",
+            "created_time": "2021-08-15T18:30:00.000Z",
+            "last_edited_time": "2021-09-19T06:11:00.000Z",
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "b3c92746-440d-46ec-b153-0e6a3834f395"
+            },
+            "archived": false,
+            "properties": {
+                "Buy/Sell": {
+                    "id": "Ay%5E%5B",
+                    "type": "select",
+                    "select": {
+                        "id": "bc0bf4f4-ad8c-4f72-b80e-42e3fc56028d",
+                        "name": "Buy",
+                        "color": "green"
+                    }
+                },
+                "Number of Stocks": {
+                    "id": "BI%5Cf",
+                    "type": "number",
+                    "number": 1
+                },
+                "Current Value": {
+                    "id": "Qe%3ED",
+                    "type": "number",
+                    "number": null
+                },
+                "Industry": {
+                    "id": "Sgjl",
+                    "type": "select",
+                    "select": {
+                        "id": "Mh[r",
+                        "name": "Consumer Staples",
+                        "color": "default"
+                    }
+                },
+                "Amount": {
+                    "id": "%5B%3BFs",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "number",
+                        "number": 519.9,
+                        "function": "sum"
+                    }
+                },
+                "Transaction": {
+                    "id": "l%5C_S",
+                    "type": "relation",
+                    "relation": [
+                        {
+                            "id": "f7c69898-9149-4fa6-9734-639d03b0bc3e"
+                        }
+                    ]
+                },
+                "Price of 1 Stock": {
+                    "id": "%7BV%5Cc",
+                    "type": "formula",
+                    "formula": {
+                        "type": "number",
+                        "number": 519.9
+                    }
+                },
+                "Date": {
+                    "id": "~%5Ed%3F",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "date",
+                                "date": {
+                                    "start": "2021-08-12",
+                                    "end": null
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "MARICO",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "MARICO",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/MARICO-bdb242a567554ec48dd1977923292f4f"
+        },
+        {
+            "object": "page",
+            "id": "e643bc88-327f-4686-89b1-216c9833badb",
+            "created_time": "2021-08-15T18:30:00.000Z",
+            "last_edited_time": "2021-09-19T06:11:00.000Z",
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "b3c92746-440d-46ec-b153-0e6a3834f395"
+            },
+            "archived": false,
+            "properties": {
+                "Buy/Sell": {
+                    "id": "Ay%5E%5B",
+                    "type": "select",
+                    "select": {
+                        "id": "bc0bf4f4-ad8c-4f72-b80e-42e3fc56028d",
+                        "name": "Buy",
+                        "color": "green"
+                    }
+                },
+                "Number of Stocks": {
+                    "id": "BI%5Cf",
+                    "type": "number",
+                    "number": 1
+                },
+                "Current Value": {
+                    "id": "Qe%3ED",
+                    "type": "number",
+                    "number": null
+                },
+                "Industry": {
+                    "id": "Sgjl",
+                    "type": "select",
+                    "select": {
+                        "id": "b71e7a00-453c-4da4-8848-a96dfda38854",
+                        "name": "Information Technology",
+                        "color": "blue"
+                    }
+                },
+                "Amount": {
+                    "id": "%5B%3BFs",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "number",
+                        "number": 1685,
+                        "function": "sum"
+                    }
+                },
+                "Transaction": {
+                    "id": "l%5C_S",
+                    "type": "relation",
+                    "relation": [
+                        {
+                            "id": "b5b8d4e2-e7bf-4785-95db-0d2ad810197a"
+                        }
+                    ]
+                },
+                "Price of 1 Stock": {
+                    "id": "%7BV%5Cc",
+                    "type": "formula",
+                    "formula": {
+                        "type": "number",
+                        "number": 1685
+                    }
+                },
+                "Date": {
+                    "id": "~%5Ed%3F",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "date",
+                                "date": {
+                                    "start": "2021-08-12",
+                                    "end": null
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "INFY",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "INFY",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/INFY-e643bc88327f468689b1216c9833badb"
+        },
+        {
+            "object": "page",
+            "id": "e1a27a33-a353-45d0-a206-0141f521f3b6",
+            "created_time": "2021-08-15T18:26:00.000Z",
+            "last_edited_time": "2021-09-19T06:11:00.000Z",
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "b3c92746-440d-46ec-b153-0e6a3834f395"
+            },
+            "archived": false,
+            "properties": {
+                "Buy/Sell": {
+                    "id": "Ay%5E%5B",
+                    "type": "select",
+                    "select": {
+                        "id": "bc0bf4f4-ad8c-4f72-b80e-42e3fc56028d",
+                        "name": "Buy",
+                        "color": "green"
+                    }
+                },
+                "Number of Stocks": {
+                    "id": "BI%5Cf",
+                    "type": "number",
+                    "number": 5
+                },
+                "Current Value": {
+                    "id": "Qe%3ED",
+                    "type": "number",
+                    "number": null
+                },
+                "Industry": {
+                    "id": "Sgjl",
+                    "type": "select",
+                    "select": {
+                        "id": "cd679687-8716-41db-8aa4-9bd19c3bea0b",
+                        "name": "Materials",
+                        "color": "purple"
+                    }
+                },
+                "Amount": {
+                    "id": "%5B%3BFs",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "number",
+                        "number": 950,
+                        "function": "sum"
+                    }
+                },
+                "Transaction": {
+                    "id": "l%5C_S",
+                    "type": "relation",
+                    "relation": [
+                        {
+                            "id": "7f6bf76c-c75b-464f-b9c9-b1f8d5a94a9d"
+                        }
+                    ]
+                },
+                "Price of 1 Stock": {
+                    "id": "%7BV%5Cc",
+                    "type": "formula",
+                    "formula": {
+                        "type": "number",
+                        "number": 190
+                    }
+                },
+                "Date": {
+                    "id": "~%5Ed%3F",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "date",
+                                "date": {
+                                    "start": "2021-08-12",
+                                    "end": null
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "BEPL",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "BEPL",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/BEPL-e1a27a33a35345d0a2060141f521f3b6"
+        },
+        {
+            "object": "page",
+            "id": "39fe8050-b529-48f0-bc77-151bf7d03ad8",
+            "created_time": "2021-08-13T12:26:00.000Z",
+            "last_edited_time": "2021-09-19T06:11:00.000Z",
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "b3c92746-440d-46ec-b153-0e6a3834f395"
+            },
+            "archived": false,
+            "properties": {
+                "Buy/Sell": {
+                    "id": "Ay%5E%5B",
+                    "type": "select",
+                    "select": {
+                        "id": "bc0bf4f4-ad8c-4f72-b80e-42e3fc56028d",
+                        "name": "Buy",
+                        "color": "green"
+                    }
+                },
+                "Number of Stocks": {
+                    "id": "BI%5Cf",
+                    "type": "number",
+                    "number": 1
+                },
+                "Current Value": {
+                    "id": "Qe%3ED",
+                    "type": "number",
+                    "number": null
+                },
+                "Industry": {
+                    "id": "Sgjl",
+                    "type": "select",
+                    "select": {
+                        "id": "cd679687-8716-41db-8aa4-9bd19c3bea0b",
+                        "name": "Materials",
+                        "color": "purple"
+                    }
+                },
+                "Amount": {
+                    "id": "%5B%3BFs",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "number",
+                        "number": 1237.3,
+                        "function": "sum"
+                    }
+                },
+                "Transaction": {
+                    "id": "l%5C_S",
+                    "type": "relation",
+                    "relation": [
+                        {
+                            "id": "e6f7bb45-48be-4a47-a93f-e421646e7049"
+                        }
+                    ]
+                },
+                "Price of 1 Stock": {
+                    "id": "%7BV%5Cc",
+                    "type": "formula",
+                    "formula": {
+                        "type": "number",
+                        "number": 1237.3
+                    }
+                },
+                "Date": {
+                    "id": "~%5Ed%3F",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "date",
+                                "date": {
+                                    "start": "2021-07-13",
+                                    "end": null
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "TATASTEEL",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "TATASTEEL",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/TATASTEEL-39fe8050b52948f0bc77151bf7d03ad8"
+        },
+        {
+            "object": "page",
+            "id": "a8488ff1-0352-4819-b6db-d957056b6b2f",
+            "created_time": "2021-08-13T12:25:00.000Z",
+            "last_edited_time": "2021-09-19T06:11:00.000Z",
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "b3c92746-440d-46ec-b153-0e6a3834f395"
+            },
+            "archived": false,
+            "properties": {
+                "Buy/Sell": {
+                    "id": "Ay%5E%5B",
+                    "type": "select",
+                    "select": {
+                        "id": "bc0bf4f4-ad8c-4f72-b80e-42e3fc56028d",
+                        "name": "Buy",
+                        "color": "green"
+                    }
+                },
+                "Number of Stocks": {
+                    "id": "BI%5Cf",
+                    "type": "number",
+                    "number": 2
+                },
+                "Current Value": {
+                    "id": "Qe%3ED",
+                    "type": "number",
+                    "number": null
+                },
+                "Industry": {
+                    "id": "Sgjl",
+                    "type": "select",
+                    "select": {
+                        "id": "cd679687-8716-41db-8aa4-9bd19c3bea0b",
+                        "name": "Materials",
+                        "color": "purple"
+                    }
+                },
+                "Amount": {
+                    "id": "%5B%3BFs",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "number",
+                        "number": 253.1,
+                        "function": "sum"
+                    }
+                },
+                "Transaction": {
+                    "id": "l%5C_S",
+                    "type": "relation",
+                    "relation": [
+                        {
+                            "id": "fc5bd298-d2b5-40fd-ab50-0067e3be248d"
+                        }
+                    ]
+                },
+                "Price of 1 Stock": {
+                    "id": "%7BV%5Cc",
+                    "type": "formula",
+                    "formula": {
+                        "type": "number",
+                        "number": 126.55
+                    }
+                },
+                "Date": {
+                    "id": "~%5Ed%3F",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "date",
+                                "date": {
+                                    "start": "2021-07-13",
+                                    "end": null
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "SAIL",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "SAIL",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/SAIL-a8488ff103524819b6dbd957056b6b2f"
+        },
+        {
+            "object": "page",
+            "id": "697baffb-f93c-46e0-a9fb-2a41503e5641",
+            "created_time": "2021-08-13T12:24:00.000Z",
+            "last_edited_time": "2021-09-19T06:11:00.000Z",
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "b3c92746-440d-46ec-b153-0e6a3834f395"
+            },
+            "archived": false,
+            "properties": {
+                "Buy/Sell": {
+                    "id": "Ay%5E%5B",
+                    "type": "select",
+                    "select": {
+                        "id": "bc0bf4f4-ad8c-4f72-b80e-42e3fc56028d",
+                        "name": "Buy",
+                        "color": "green"
+                    }
+                },
+                "Number of Stocks": {
+                    "id": "BI%5Cf",
+                    "type": "number",
+                    "number": 1
+                },
+                "Current Value": {
+                    "id": "Qe%3ED",
+                    "type": "number",
+                    "number": null
+                },
+                "Industry": {
+                    "id": "Sgjl",
+                    "type": "select",
+                    "select": {
+                        "id": "cd679687-8716-41db-8aa4-9bd19c3bea0b",
+                        "name": "Materials",
+                        "color": "purple"
+                    }
+                },
+                "Amount": {
+                    "id": "%5B%3BFs",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "number",
+                        "number": 3013.45,
+                        "function": "sum"
+                    }
+                },
+                "Transaction": {
+                    "id": "l%5C_S",
+                    "type": "relation",
+                    "relation": [
+                        {
+                            "id": "26678395-4229-4e90-97b9-3833f802a24c"
+                        }
+                    ]
+                },
+                "Price of 1 Stock": {
+                    "id": "%7BV%5Cc",
+                    "type": "formula",
+                    "formula": {
+                        "type": "number",
+                        "number": 3013.45
+                    }
+                },
+                "Date": {
+                    "id": "~%5Ed%3F",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "date",
+                                "date": {
+                                    "start": "2021-07-13",
+                                    "end": null
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "ASIANPAINT",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "ASIANPAINT",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/ASIANPAINT-697baffbf93c46e0a9fb2a41503e5641"
+        },
+        {
+            "object": "page",
+            "id": "d7a8950d-f64c-465d-bda7-bd432dbbcf17",
+            "created_time": "2021-08-13T12:24:00.000Z",
+            "last_edited_time": "2021-09-19T06:11:00.000Z",
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "b3c92746-440d-46ec-b153-0e6a3834f395"
+            },
+            "archived": false,
+            "properties": {
+                "Buy/Sell": {
+                    "id": "Ay%5E%5B",
+                    "type": "select",
+                    "select": {
+                        "id": "bc0bf4f4-ad8c-4f72-b80e-42e3fc56028d",
+                        "name": "Buy",
+                        "color": "green"
+                    }
+                },
+                "Number of Stocks": {
+                    "id": "BI%5Cf",
+                    "type": "number",
+                    "number": 1
+                },
+                "Current Value": {
+                    "id": "Qe%3ED",
+                    "type": "number",
+                    "number": null
+                },
+                "Industry": {
+                    "id": "Sgjl",
+                    "type": "select",
+                    "select": {
+                        "id": "b71e7a00-453c-4da4-8848-a96dfda38854",
+                        "name": "Information Technology",
+                        "color": "blue"
+                    }
+                },
+                "Amount": {
+                    "id": "%5B%3BFs",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "number",
+                        "number": 973.95,
+                        "function": "sum"
+                    }
+                },
+                "Transaction": {
+                    "id": "l%5C_S",
+                    "type": "relation",
+                    "relation": [
+                        {
+                            "id": "14850869-5420-4e17-9bde-1c16194d300e"
+                        }
+                    ]
+                },
+                "Price of 1 Stock": {
+                    "id": "%7BV%5Cc",
+                    "type": "formula",
+                    "formula": {
+                        "type": "number",
+                        "number": 973.95
+                    }
+                },
+                "Date": {
+                    "id": "~%5Ed%3F",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "date",
+                                "date": {
+                                    "start": "2021-07-13",
+                                    "end": null
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "HCLTECH",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "HCLTECH",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/HCLTECH-d7a8950df64c465dbda7bd432dbbcf17"
+        },
+        {
+            "object": "page",
+            "id": "1a801614-d2b8-4fe4-b45d-dbe4db1db1ac",
+            "created_time": "2021-08-13T12:23:00.000Z",
+            "last_edited_time": "2021-09-19T06:11:00.000Z",
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "b3c92746-440d-46ec-b153-0e6a3834f395"
+            },
+            "archived": false,
+            "properties": {
+                "Buy/Sell": {
+                    "id": "Ay%5E%5B",
+                    "type": "select",
+                    "select": {
+                        "id": "bc0bf4f4-ad8c-4f72-b80e-42e3fc56028d",
+                        "name": "Buy",
+                        "color": "green"
+                    }
+                },
+                "Number of Stocks": {
+                    "id": "BI%5Cf",
+                    "type": "number",
+                    "number": 1
+                },
+                "Current Value": {
+                    "id": "Qe%3ED",
+                    "type": "number",
+                    "number": null
+                },
+                "Industry": {
+                    "id": "Sgjl",
+                    "type": "select",
+                    "select": {
+                        "id": "b71e7a00-453c-4da4-8848-a96dfda38854",
+                        "name": "Information Technology",
+                        "color": "blue"
+                    }
+                },
+                "Amount": {
+                    "id": "%5B%3BFs",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "number",
+                        "number": 3199.75,
+                        "function": "sum"
+                    }
+                },
+                "Transaction": {
+                    "id": "l%5C_S",
+                    "type": "relation",
+                    "relation": [
+                        {
+                            "id": "9f6e807e-2886-42be-a862-114f1db52cb6"
+                        }
+                    ]
+                },
+                "Price of 1 Stock": {
+                    "id": "%7BV%5Cc",
+                    "type": "formula",
+                    "formula": {
+                        "type": "number",
+                        "number": 3199.75
+                    }
+                },
+                "Date": {
+                    "id": "~%5Ed%3F",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "date",
+                                "date": {
+                                    "start": "2021-07-13",
+                                    "end": null
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "TCS",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "TCS",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/TCS-1a801614d2b84fe4b45ddbe4db1db1ac"
+        },
+        {
+            "object": "page",
+            "id": "7c578680-7cb2-43ab-acec-d345f5b5fd01",
+            "created_time": "2021-08-13T12:23:00.000Z",
+            "last_edited_time": "2021-09-19T06:11:00.000Z",
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "b3c92746-440d-46ec-b153-0e6a3834f395"
+            },
+            "archived": false,
+            "properties": {
+                "Buy/Sell": {
+                    "id": "Ay%5E%5B",
+                    "type": "select",
+                    "select": {
+                        "id": "bc0bf4f4-ad8c-4f72-b80e-42e3fc56028d",
+                        "name": "Buy",
+                        "color": "green"
+                    }
+                },
+                "Number of Stocks": {
+                    "id": "BI%5Cf",
+                    "type": "number",
+                    "number": 2
+                },
+                "Current Value": {
+                    "id": "Qe%3ED",
+                    "type": "number",
+                    "number": null
+                },
+                "Industry": {
+                    "id": "Sgjl",
+                    "type": "select",
+                    "select": {
+                        "id": "b71e7a00-453c-4da4-8848-a96dfda38854",
+                        "name": "Information Technology",
+                        "color": "blue"
+                    }
+                },
+                "Amount": {
+                    "id": "%5B%3BFs",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "number",
+                        "number": 3085,
+                        "function": "sum"
+                    }
+                },
+                "Transaction": {
+                    "id": "l%5C_S",
+                    "type": "relation",
+                    "relation": [
+                        {
+                            "id": "1d8fd429-4c13-439d-9c0e-15c61e2a488c"
+                        }
+                    ]
+                },
+                "Price of 1 Stock": {
+                    "id": "%7BV%5Cc",
+                    "type": "formula",
+                    "formula": {
+                        "type": "number",
+                        "number": 1542.5
+                    }
+                },
+                "Date": {
+                    "id": "~%5Ed%3F",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "date",
+                                "date": {
+                                    "start": "2021-07-13",
+                                    "end": null
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "INFY",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "INFY",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/INFY-7c5786807cb243abacecd345f5b5fd01"
+        },
+        {
+            "object": "page",
+            "id": "b4a4b750-9aae-454b-872d-b216f6045eb7",
+            "created_time": "2021-08-13T12:23:00.000Z",
+            "last_edited_time": "2021-09-19T06:11:00.000Z",
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "b3c92746-440d-46ec-b153-0e6a3834f395"
+            },
+            "archived": false,
+            "properties": {
+                "Buy/Sell": {
+                    "id": "Ay%5E%5B",
+                    "type": "select",
+                    "select": {
+                        "id": "bc0bf4f4-ad8c-4f72-b80e-42e3fc56028d",
+                        "name": "Buy",
+                        "color": "green"
+                    }
+                },
+                "Number of Stocks": {
+                    "id": "BI%5Cf",
+                    "type": "number",
+                    "number": 3
+                },
+                "Current Value": {
+                    "id": "Qe%3ED",
+                    "type": "number",
+                    "number": null
+                },
+                "Industry": {
+                    "id": "Sgjl",
+                    "type": "select",
+                    "select": {
+                        "id": "11c6f64d-54ba-4300-8fe8-561086d5d6f2",
+                        "name": "Financials",
+                        "color": "gray"
+                    }
+                },
+                "Amount": {
+                    "id": "%5B%3BFs",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "number",
+                        "number": 1287.9,
+                        "function": "sum"
+                    }
+                },
+                "Transaction": {
+                    "id": "l%5C_S",
+                    "type": "relation",
+                    "relation": [
+                        {
+                            "id": "5b3d64dd-004d-44d6-9194-989a1f5a68b5"
+                        }
+                    ]
+                },
+                "Price of 1 Stock": {
+                    "id": "%7BV%5Cc",
+                    "type": "formula",
+                    "formula": {
+                        "type": "number",
+                        "number": 429.3
+                    }
+                },
+                "Date": {
+                    "id": "~%5Ed%3F",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "date",
+                                "date": {
+                                    "start": "2021-07-13",
+                                    "end": null
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "SBIN",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "SBIN",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/SBIN-b4a4b7509aae454b872db216f6045eb7"
+        },
+        {
+            "object": "page",
+            "id": "b7000d79-84c2-4ac2-a1e2-e2622b33b5ac",
+            "created_time": "2021-08-13T12:20:00.000Z",
+            "last_edited_time": "2021-09-19T06:11:00.000Z",
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "b3c92746-440d-46ec-b153-0e6a3834f395"
+            },
+            "archived": false,
+            "properties": {
+                "Buy/Sell": {
+                    "id": "Ay%5E%5B",
+                    "type": "select",
+                    "select": {
+                        "id": "bc0bf4f4-ad8c-4f72-b80e-42e3fc56028d",
+                        "name": "Buy",
+                        "color": "green"
+                    }
+                },
+                "Number of Stocks": {
+                    "id": "BI%5Cf",
+                    "type": "number",
+                    "number": 1
+                },
+                "Current Value": {
+                    "id": "Qe%3ED",
+                    "type": "number",
+                    "number": null
+                },
+                "Industry": {
+                    "id": "Sgjl",
+                    "type": "select",
+                    "select": {
+                        "id": "11c6f64d-54ba-4300-8fe8-561086d5d6f2",
+                        "name": "Financials",
+                        "color": "gray"
+                    }
+                },
+                "Amount": {
+                    "id": "%5B%3BFs",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "number",
+                        "number": 1564.6,
+                        "function": "sum"
+                    }
+                },
+                "Transaction": {
+                    "id": "l%5C_S",
+                    "type": "relation",
+                    "relation": [
+                        {
+                            "id": "0c075ab4-13b8-4ee7-9352-6c66dcc07e6c"
+                        }
+                    ]
+                },
+                "Price of 1 Stock": {
+                    "id": "%7BV%5Cc",
+                    "type": "formula",
+                    "formula": {
+                        "type": "number",
+                        "number": 1564.6
+                    }
+                },
+                "Date": {
+                    "id": "~%5Ed%3F",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "date",
+                                "date": {
+                                    "start": "2021-07-13",
+                                    "end": null
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "MUTHOOTFIN",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "MUTHOOTFIN",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/MUTHOOTFIN-b7000d7984c24ac2a1e2e2622b33b5ac"
+        },
+        {
+            "object": "page",
+            "id": "cda8101f-f7c0-4c5c-bc2c-f53a7c6950f5",
+            "created_time": "2021-08-13T12:18:00.000Z",
+            "last_edited_time": "2021-09-19T06:11:00.000Z",
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "b3c92746-440d-46ec-b153-0e6a3834f395"
+            },
+            "archived": false,
+            "properties": {
+                "Buy/Sell": {
+                    "id": "Ay%5E%5B",
+                    "type": "select",
+                    "select": {
+                        "id": "bc0bf4f4-ad8c-4f72-b80e-42e3fc56028d",
+                        "name": "Buy",
+                        "color": "green"
+                    }
+                },
+                "Number of Stocks": {
+                    "id": "BI%5Cf",
+                    "type": "number",
+                    "number": 1
+                },
+                "Current Value": {
+                    "id": "Qe%3ED",
+                    "type": "number",
+                    "number": null
+                },
+                "Industry": {
+                    "id": "Sgjl",
+                    "type": "select",
+                    "select": {
+                        "id": "11c6f64d-54ba-4300-8fe8-561086d5d6f2",
+                        "name": "Financials",
+                        "color": "gray"
+                    }
+                },
+                "Amount": {
+                    "id": "%5B%3BFs",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "number",
+                        "number": 1486.15,
+                        "function": "sum"
+                    }
+                },
+                "Transaction": {
+                    "id": "l%5C_S",
+                    "type": "relation",
+                    "relation": [
+                        {
+                            "id": "d8be27d6-f93b-41c4-8bf4-8efc93631d33"
+                        }
+                    ]
+                },
+                "Price of 1 Stock": {
+                    "id": "%7BV%5Cc",
+                    "type": "formula",
+                    "formula": {
+                        "type": "number",
+                        "number": 1486.15
+                    }
+                },
+                "Date": {
+                    "id": "~%5Ed%3F",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "date",
+                                "date": {
+                                    "start": "2021-07-13",
+                                    "end": null
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "HDFCBANK",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "HDFCBANK",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/HDFCBANK-cda8101ff7c04c5cbc2cf53a7c6950f5"
+        },
+        {
+            "object": "page",
+            "id": "88575df4-4de2-4157-9a20-2d929178e409",
+            "created_time": "2021-08-13T11:53:00.000Z",
+            "last_edited_time": "2021-09-19T06:11:00.000Z",
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "b3c92746-440d-46ec-b153-0e6a3834f395"
+            },
+            "archived": false,
+            "properties": {
+                "Buy/Sell": {
+                    "id": "Ay%5E%5B",
+                    "type": "select",
+                    "select": {
+                        "id": "bc0bf4f4-ad8c-4f72-b80e-42e3fc56028d",
+                        "name": "Buy",
+                        "color": "green"
+                    }
+                },
+                "Number of Stocks": {
+                    "id": "BI%5Cf",
+                    "type": "number",
+                    "number": 1
+                },
+                "Current Value": {
+                    "id": "Qe%3ED",
+                    "type": "number",
+                    "number": null
+                },
+                "Industry": {
+                    "id": "Sgjl",
+                    "type": "select",
+                    "select": {
+                        "id": "f5f2152b-1770-43ef-92c8-09fb3a158a8d",
+                        "name": "Energy",
+                        "color": "red"
+                    }
+                },
+                "Amount": {
+                    "id": "%5B%3BFs",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "number",
+                        "number": 2096.65,
+                        "function": "sum"
+                    }
+                },
+                "Transaction": {
+                    "id": "l%5C_S",
+                    "type": "relation",
+                    "relation": [
+                        {
+                            "id": "4525d556-3b57-489e-bc45-db91a5ae67cc"
+                        }
+                    ]
+                },
+                "Price of 1 Stock": {
+                    "id": "%7BV%5Cc",
+                    "type": "formula",
+                    "formula": {
+                        "type": "number",
+                        "number": 2096.65
+                    }
+                },
+                "Date": {
+                    "id": "~%5Ed%3F",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "date",
+                                "date": {
+                                    "start": "2021-07-13",
+                                    "end": null
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "RELIANCE",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "RELIANCE",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/RELIANCE-88575df44de241579a202d929178e409"
+        },
+        {
+            "object": "page",
+            "id": "a10c97e1-08a8-46fb-aef6-99b35a7cb8ad",
+            "created_time": "2021-08-13T11:53:00.000Z",
+            "last_edited_time": "2021-09-19T06:11:00.000Z",
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "b3c92746-440d-46ec-b153-0e6a3834f395"
+            },
+            "archived": false,
+            "properties": {
+                "Buy/Sell": {
+                    "id": "Ay%5E%5B",
+                    "type": "select",
+                    "select": {
+                        "id": "bc0bf4f4-ad8c-4f72-b80e-42e3fc56028d",
+                        "name": "Buy",
+                        "color": "green"
+                    }
+                },
+                "Number of Stocks": {
+                    "id": "BI%5Cf",
+                    "type": "number",
+                    "number": 10
+                },
+                "Current Value": {
+                    "id": "Qe%3ED",
+                    "type": "number",
+                    "number": null
+                },
+                "Industry": {
+                    "id": "Sgjl",
+                    "type": "select",
+                    "select": {
+                        "id": "f5f2152b-1770-43ef-92c8-09fb3a158a8d",
+                        "name": "Energy",
+                        "color": "red"
+                    }
+                },
+                "Amount": {
+                    "id": "%5B%3BFs",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "number",
+                        "number": 1194.5,
+                        "function": "sum"
+                    }
+                },
+                "Transaction": {
+                    "id": "l%5C_S",
+                    "type": "relation",
+                    "relation": [
+                        {
+                            "id": "f76277f8-561f-4989-a7fb-46fb186f3f4f"
+                        }
+                    ]
+                },
+                "Price of 1 Stock": {
+                    "id": "%7BV%5Cc",
+                    "type": "formula",
+                    "formula": {
+                        "type": "number",
+                        "number": 119.45
+                    }
+                },
+                "Date": {
+                    "id": "~%5Ed%3F",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "date",
+                                "date": {
+                                    "start": "2021-07-13",
+                                    "end": null
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "ONGC",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "ONGC",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/ONGC-a10c97e108a846fbaef699b35a7cb8ad"
+        },
+        {
+            "object": "page",
+            "id": "ed415932-473f-483b-993e-f42e8974ec7f",
+            "created_time": "2021-08-13T11:53:00.000Z",
+            "last_edited_time": "2021-09-19T06:11:00.000Z",
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "b3c92746-440d-46ec-b153-0e6a3834f395"
+            },
+            "archived": false,
+            "properties": {
+                "Buy/Sell": {
+                    "id": "Ay%5E%5B",
+                    "type": "select",
+                    "select": {
+                        "id": "bc0bf4f4-ad8c-4f72-b80e-42e3fc56028d",
+                        "name": "Buy",
+                        "color": "green"
+                    }
+                },
+                "Number of Stocks": {
+                    "id": "BI%5Cf",
+                    "type": "number",
+                    "number": 1
+                },
+                "Current Value": {
+                    "id": "Qe%3ED",
+                    "type": "number",
+                    "number": null
+                },
+                "Industry": {
+                    "id": "Sgjl",
+                    "type": "select",
+                    "select": {
+                        "id": "Mh[r",
+                        "name": "Consumer Staples",
+                        "color": "default"
+                    }
+                },
+                "Amount": {
+                    "id": "%5B%3BFs",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "number",
+                        "number": 2442.4,
+                        "function": "sum"
+                    }
+                },
+                "Transaction": {
+                    "id": "l%5C_S",
+                    "type": "relation",
+                    "relation": [
+                        {
+                            "id": "e19c3fea-b07e-4960-a3a3-f7a34e9343b7"
+                        }
+                    ]
+                },
+                "Price of 1 Stock": {
+                    "id": "%7BV%5Cc",
+                    "type": "formula",
+                    "formula": {
+                        "type": "number",
+                        "number": 2442.4
+                    }
+                },
+                "Date": {
+                    "id": "~%5Ed%3F",
+                    "type": "rollup",
+                    "rollup": {
+                        "type": "array",
+                        "array": [
+                            {
+                                "type": "date",
+                                "date": {
+                                    "start": "2021-07-13",
+                                    "end": null
+                                }
+                            }
+                        ],
+                        "function": "show_original"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "HINDUNILVR",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "HINDUNILVR",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/HINDUNILVR-ed415932473f483b993ef42e8974ec7f"
+        }
+    ],
+    "next_cursor": null,
+    "has_more": false
+}
